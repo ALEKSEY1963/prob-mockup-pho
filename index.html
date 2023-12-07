@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MockupPhoto</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="fav/site.webmanifest" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <div class="container header__container">
+        <a href="img/lglg.png" class="logo">
+          <img
+            class="logo__img"
+            src="img/logo.svg"
+            alt="лого"
+            width="250"
+            height="200"
+          />
+        </a>
+        <nav class="nav" id="nav">
+          <ul class="list-reset nav__list">
+            <li class="nav__item">
+              <a
+                href="https://kartaslov.ru/%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0/%D0%BF%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE"
+                target="_blank"
+                class="nav__link nav__link-active"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                href="https://ru.wiktionary.org/wiki/%D0%B1%D0%BB%D0%BE%D0%B3"
+                target="_blank"
+                class="nav__link"
+                >Blog</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                href="https://gufo.me/dict/ozhegov/%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82"
+                target="_blank"
+                class="nav__link"
+                >Client</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                href="https://gufo.me/dict/ozhegov/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82"
+                target="_blank"
+                class="nav__link"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="btn-reset btn header__btn" id="call-form">
+          Schedule a call
+        </button>
+        <button class="btn-reset burger" id="burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero__container grid">
+          <div class="hero__left">
+            <div class="hero__text">Pro photographer</div>
+            <span class="hero__level"
+              >Let's take your photographs to next level</span
+            >
+          </div>
+          <div class="hero__content">
+            <h1 class="visually-hidden">MaksimKaty Photographer Site</h1>
+            <div class="hero__hello">
+              Kids are growing by&nbsp;leaps and bounds <span>MaksimKaty</span>
+            </div>
+            <p class="hero__descr">
+              Not by&nbsp;days, but by&nbsp;hours. Very fast, grow rapidly,
+              develop, increase. The phraseology came from the works
+              of&nbsp;Alexander Sergeevich Pushkin (1799-1837) &laquo;The Tale
+              of&nbsp;Tsar Saltan&raquo;: &laquo;And the child grows there not
+              by&nbsp;days, but by&nbsp;the clock&raquo;.
+            </p>
+            <div class="latest-shots hero__shots">
+              <div class="latest-shots__header">
+                <h2 class="latest-shots__title">Latest shots</h2>
+                <a
+                  href="https://aleksey1963.github.io/bom-promis-my/index.html"
+                  target="_blank"
+                  class="latest-shots__all"
+                  >View all</a
+                >
+              </div>
+              <div class="latest-shots__content">
+                <div class="swiper" id="gallery">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/1.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Man in mask"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/2.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Woman in cornfield"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/3.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Woman rabbit"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/4.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Man in mask"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/5.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Woman in cornfield"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/6.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Woman rabbit"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/7.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Woman rabbit"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/8.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Woman rabbit"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/9.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Woman rabbit"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/10.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Woman rabbit"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/11.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Woman rabbit"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="#"
+                        class="latest-shots__link"
+                        aria-label="Go to shot"
+                      >
+                        <img
+                          src="img/12.jpg"
+                          width="250"
+                          height="150"
+                          loading="lazy"
+                          alt="Woman rabbit"
+                          class="latest-shots__image"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="latest-shots__nav">
+                <button
+                  class="btn-reset latest-shots__btn latest-shots__btn--left"
+                  aria-label="Slide left"
+                  id="gallery-prev"
+                >
+                  <svg
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M26.25 14C26.25 13.7679 26.1578 13.5454 25.9937 13.3813C25.8296 13.2172 25.6071 13.125 25.375 13.125H4.73725L10.2445 7.61951C10.3259 7.53815 10.3904 7.44157 10.4344 7.33528C10.4784 7.22898 10.5011 7.11506 10.5011 7.00001C10.5011 6.88495 10.4784 6.77103 10.4344 6.66474C10.3904 6.55844 10.3259 6.46186 10.2445 6.38051C10.1631 6.29915 10.0666 6.23462 9.96027 6.19059C9.85398 6.14656 9.74005 6.1239 9.625 6.1239C9.50995 6.1239 9.39602 6.14656 9.28973 6.19059C9.18343 6.23462 9.08685 6.29915 9.0055 6.38051L2.0055 13.3805C1.92401 13.4618 1.85936 13.5583 1.81525 13.6646C1.77114 13.771 1.74844 13.8849 1.74844 14C1.74844 14.1151 1.77114 14.2291 1.81525 14.3354C1.85936 14.4417 1.92401 14.5382 2.0055 14.6195L9.0055 21.6195C9.08685 21.7009 9.18343 21.7654 9.28973 21.8094C9.39602 21.8535 9.50995 21.8761 9.625 21.8761C9.74005 21.8761 9.85398 21.8535 9.96027 21.8094C10.0666 21.7654 10.1631 21.7009 10.2445 21.6195C10.3259 21.5382 10.3904 21.4416 10.4344 21.3353C10.4784 21.229 10.5011 21.1151 10.5011 21C10.5011 20.885 10.4784 20.771 10.4344 20.6647C10.3904 20.5584 10.3259 20.4619 10.2445 20.3805L4.73725 14.875H25.375C25.6071 14.875 25.8296 14.7828 25.9937 14.6187C26.1578 14.4546 26.25 14.2321 26.25 14Z"
+                    />
+                  </svg>
+                </button>
+                <button
+                  class="btn-reset latest-shots__btn latest-shots__btn--right"
+                  aria-label="Slide right"
+                  id="gallery-next"
+                >
+                  <svg
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.75001 14C1.75001 13.7679 1.84219 13.5454 2.00629 13.3813C2.17038 13.2172 2.39294 13.125 2.62501 13.125H23.2628L17.7555 7.61951C17.6742 7.53815 17.6096 7.44157 17.5656 7.33528C17.5216 7.22898 17.4989 7.11506 17.4989 7.00001C17.4989 6.88495 17.5216 6.77103 17.5656 6.66474C17.6096 6.55844 17.6742 6.46186 17.7555 6.38051C17.8369 6.29915 17.9334 6.23462 18.0397 6.19059C18.146 6.14656 18.26 6.1239 18.375 6.1239C18.4901 6.1239 18.604 6.14656 18.7103 6.19059C18.8166 6.23462 18.9132 6.29915 18.9945 6.38051L25.9945 13.3805C26.076 13.4618 26.1406 13.5583 26.1848 13.6646C26.2289 13.771 26.2516 13.8849 26.2516 14C26.2516 14.1151 26.2289 14.2291 26.1848 14.3354C26.1406 14.4417 26.076 14.5382 25.9945 14.6195L18.9945 21.6195C18.9132 21.7009 18.8166 21.7654 18.7103 21.8094C18.604 21.8535 18.4901 21.8761 18.375 21.8761C18.26 21.8761 18.146 21.8535 18.0397 21.8094C17.9334 21.7654 17.8369 21.7009 17.7555 21.6195C17.6742 21.5382 17.6096 21.4416 17.5656 21.3353C17.5216 21.229 17.4989 21.1151 17.4989 21C17.4989 20.885 17.5216 20.771 17.5656 20.6647C17.6096 20.5584 17.6742 20.4619 17.7555 20.3805L23.2628 14.875H2.62501C2.39294 14.875 2.17038 14.7828 2.00629 14.6187C1.84219 14.4546 1.75001 14.2321 1.75001 14Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="modal-parent" id="modal-call-form">
+      <div class="modal-wrapper">
+        <div class="modal">
+          <h2 class="modal__title">Schedule a call</h2>
+          <form action="#" class="form">
+            <label class="form__field">
+              <span class="form__text">name</span>
+              <input type="text" name="name" class="form__input" />
+            </label>
+            <label class="form__field">
+              <span class="form__text">Phone</span>
+              <input type="tel" name="phone" class="form__input" />
+            </label>
+            <button class="btn-reset btn form__btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

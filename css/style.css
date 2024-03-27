@@ -55,13 +55,6 @@ img {
   font-weight: 400;
   font-style: normal;
 }
-
-.page__body {
-  margin: 0;
-  min-width: 360px;
-  font-family: var(--font-family);
-  background-color: var(--color-dark);
-}
 :root {
   --color-light: #eee;
   --color-grey: #838383;
@@ -72,6 +65,13 @@ img {
   --font-family: "Josefin Sans", sans-serif;
   --second-family: "Montserrat", sans-serif;
   --third-family: "Poppins", sans-serif;
+}
+
+.page__body {
+  margin: 0;
+  min-width: 360px;
+  font-family: var(--font-family);
+  background-color: var(--color-dark);
 }
 
 .stop-scroll {
@@ -138,7 +138,7 @@ img {
 }
 .nav__link:focus-visible {
   outline: 2px dashed var(--color-second);
-  outline-offset: 3px;
+  outline-offset: 5px;
 }
 
 @media (any-hover: hover) {
@@ -154,7 +154,7 @@ img {
 }
 
 .btn {
-  border-radius: 3px;
+  border-radius: 10px;
   padding: 16px;
   font-weight: 700;
   font-size: 18px;
@@ -169,8 +169,8 @@ img {
   background-repeat: no-repeat;
 }
 .hero__container {
-  height: 100%;
-  min-height: calc(100vh - 60px);
+   height: 100%;
+  min-height: calc(100vh - 100px); 
 }
 
 .grid {
@@ -235,7 +235,7 @@ img {
 .hero__hello span {
   font-family: var(--second-family);
   font-weight: 800;
-  font-size: 68px;
+  font-size: 72px;
   color: var(--color-second);
 }
 .hero__descr {

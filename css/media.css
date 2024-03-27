@@ -80,7 +80,7 @@
   .hero {
     /* background-position: left 20% bottom; */
     background-position: left 120px top 5%;
-    background-size: auto 400px;
+    background-size: auto 500px;
   }
 
   .hero__level {
@@ -116,7 +116,7 @@
   }
   .hero {
     background-position: left 80px top 5%;
-    background-size: auto 300px;
+    background-size: auto 350px;
   }
 
   .header__container {

@@ -17,7 +17,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 80%;
+    width: 60%;
     height: 80vh;
     overflow-y: auto;
     background-color: var(--color-dark);
@@ -39,7 +39,7 @@
   .burger {
     position: relative;
     display: block;
-    width: 30px;
+    width: 40px;
     height: 20px;
     /* background-color: red; */
   }
@@ -80,7 +80,7 @@
   .hero {
     /* background-position: left 20% bottom; */
     background-position: left 120px top 5%;
-    background-size: auto 400px;
+    background-size: auto 500px;
   }
 
   .hero__level {
@@ -116,7 +116,7 @@
   }
   .hero {
     background-position: left 80px top 5%;
-    background-size: auto 300px;
+    background-size: auto 350px;
   }
 
   .header__container {
